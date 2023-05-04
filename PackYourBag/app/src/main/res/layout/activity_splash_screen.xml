@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SplashScreen">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/appIcon"
+        android:src="@drawable/app_icon_two"
+        android:layout_centerInParent="true"/>
+
+    <TextView
+        android:id="@+id/textAppName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="PACK YOUR BAG"
+        android:layout_below="@+id/appIcon"
+        android:textAlignment="center"
+        android:layout_marginTop="10dp"
+        android:textSize="34sp"
+        android:textColor="@color/black"
+        android:textStyle="bold|italic"/>
+</RelativeLayout>
